@@ -8,4 +8,5 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.1');
   api.addFiles('striletskyy:twitter-api.js');
+  api.export('TwitterApi', 'server');
 });
