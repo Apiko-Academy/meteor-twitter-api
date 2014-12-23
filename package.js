@@ -1,17 +1,11 @@
 Package.describe({
   name: 'striletskyy:twitter-api',
-  summary: ' /* Fill me in! */ ',
-  version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  summary: 'Twiiter api for meteor application',
+  version: '0.0.1',
+  git: 'https://github.com/JSSolutions/meteor-twitter-api.git'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.1');
   api.addFiles('striletskyy:twitter-api.js');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('striletskyy:twitter-api');
-  api.addFiles('striletskyy:twitter-api-tests.js');
 });
